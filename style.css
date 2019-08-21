@@ -124,7 +124,7 @@ body {
 .showcase-motto {
   padding-top: 350px;
   color: wheat;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Caveat', cursive;
   letter-spacing: 5px;
 }
@@ -312,7 +312,7 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 2px;
-  line-height: 3px;
+  line-height: 1rem;
 }
 
 .email-container {
@@ -406,7 +406,7 @@ body {
   font-family: var(--font-text);
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 1rem;
 }
 
 
@@ -480,12 +480,22 @@ body {
   .anchor {
     display: none;
   }
+  .pages-list {
+    margin-right: 20px;
+  }
+  .pages-item__link {
+    margin-left: 20px;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 300px !important;
+  }
   .showcase-title {
-    font-size: 2rem;
+    margin-left: 15px;
+    font-size: 1.6rem;
   }
   .showcase-motto {
-    padding-top: 100px;
-    font-size: 1.8rem;
+    padding-top: 40px;
+    font-size: 1.3rem;
   }
   .service {
     flex-direction: column;
@@ -510,7 +520,13 @@ body {
   .prices-list {
     padding-left: 10px;
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 300px !important;
+  .contacts-title__container {
+    width: 100%;
+  }
+  .contacts-title {
+    padding: 50px 0 0;
+  }
+  .contacts-desc {
+    line-height: 1rem;
   }
 }
