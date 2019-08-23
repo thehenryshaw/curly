@@ -457,9 +457,10 @@ body {
   }
   .footer-contacts__container {
     padding-right: 30px;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   .footer-info__container {
+    width: 50%;
     margin-right: 50px;
   }
   .footer-contacts__desc {
