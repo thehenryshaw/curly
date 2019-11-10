@@ -40,7 +40,7 @@ body {
 .pages-item__link {
   padding-bottom: 2px;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-family: var(--font-text);
   font-weight: 300;
   margin-left: 30px;
@@ -66,6 +66,10 @@ body {
   font-size: 18px;
   outline: none;
   z-index: inherit;
+}
+
+.bars-button i  {
+  color: wheat;
 }
 
 .btn:focus, .btn:active {
@@ -99,10 +103,8 @@ body {
 }
 
 .caption {
-  width: 100%;
   position: absolute;
   top: 100px;
-  left: 0;
   color: #fff;
 }
 
@@ -112,8 +114,6 @@ body {
 }
 
 .showcase-title {
-  margin: 0;
-  width: 100%;
   color: #fff;
   font-family: var(--font-text);
   font-weight: 700;
@@ -166,7 +166,6 @@ body {
 } 
 
 .service-title {
-  margin: 200px 0 20px 0;
   color: #010101;
   font-size: 2rem;
   font-family: var(--font-text);
@@ -203,14 +202,7 @@ body {
 .lines:hover {
   border-right: 5px solid #7a4c4c;
   border-left: 5px solid #7a4c4c;
-  padding: 0 20px 198px 20px;
-  transition: all 0.5s;
-}
-
-.adjust-service__lines:hover {
-  border-right: 5px solid #7a4c4c;
-  border-left: 5px solid #7a4c4c;
-  padding: 0 20px 198px 20px;
+  padding: 150px 20px 150px 20px;
   transition: all 0.5s;
 }
 
