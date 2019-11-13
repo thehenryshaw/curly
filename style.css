@@ -129,7 +129,6 @@ body {
 }
 
 /* QUOTE */
-
 .quote {
   flex-direction: column;
   padding: 50px 0 50px 0;
@@ -404,7 +403,6 @@ body {
 
 @media (max-width: 1170px) {
   .service-title {
-    margin-top: 250px;
     font-size: 1.5rem;
   }
 }
@@ -417,7 +415,6 @@ body {
     font-size: 50px;
   }
   .showcase-motto {
-    padding-top: 200px;
     font-size: 2rem;
   }
   .service-title {
@@ -434,15 +431,10 @@ body {
 
 @media (max-width: 760px) {
   .showcase-motto {
-    padding-top: 150px;
     font-size: 2rem;
   }
   .service-title {
-    margin-top: 250px;
     font-size: 1rem;
-  }
-  .adjust-service__link {
-    width: 75%;
   }
   .lines:hover, .adjust-service__lines:hover {
     border: none;
