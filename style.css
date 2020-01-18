@@ -185,7 +185,8 @@ header {
 .service-link {
   width: 100%;
   color: #472d2d;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: var(--font-text);
   font-weight: 600;
   box-shadow: 0 2px 5px #010101;
 }
