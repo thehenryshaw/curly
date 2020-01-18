@@ -9,26 +9,70 @@ body {
 }
 
 /* HEADER */
+header {
+  height: 600px;
+  background-color: #fff;
+}
+
+.girl-image {
+  width: 250px;
+  height: 240px;
+  margin-top: 120px;
+  margin-right: 35px;
+  background-image: url('./img/1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  padding-top: 140px;
+  font-family: var(--font-text);
+  color: #010101;
+}
+
+.main-container h1 {
+  margin: 0;
+  font-size: 4rem;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  border: 3px solid rgb(156, 142, 114);
+}
+
+.main-container h3 {
+  margin: 90px 0 0;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-family: 'Poiret One', cursive;
+}
+
+.header-service {
+  margin: auto;
+  height: 50px;
+  background-color: rgb(156, 142, 114);
+  border-radius: 0;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.header-service__text {
+  font-family: 'Poiret One', cursive;
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+
 .header {
   position: absolute;
+  top: 0;
   height: 75px;
+  color: #010101;
   z-index: 1;
-}
-
-.anchor {
-  color: #fff;
-  font-size: 12px;
-  font-family: var(--font-text);
-  font-weight: 300;
-  letter-spacing: 15px;
-}
-
-.adjust-header__anchor {
-  margin-top: 30px;
-}
-
-.first-letter {
-  margin-right: 8px;
 }
 
 .pages-list {
@@ -39,7 +83,7 @@ body {
 
 .pages-item__link {
   padding-bottom: 2px;
-  color: #fff;
+  color: #010101;
   font-size: 14px;
   font-family: var(--font-text);
   font-weight: 300;
@@ -48,51 +92,13 @@ body {
 }
 
 .pages-item__link:hover {
-  color: #fff;
+  color: #010101;
   text-decoration: none;
-  border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgb(156, 142, 114);
 }
 
 .active {
-  border-bottom: 2px solid rgb(255, 255, 255, 0.5);
-}
-
-.bars-button {
-  margin-top: 25px;
-  margin-right: 185px;
-  padding: 0;
-  height: 25px;
-  color: #fff;
-  font-size: 18px;
-  outline: none;
-  z-index: inherit;
-}
-
-.bars-button i  {
-  color: wheat;
-}
-
-.btn:focus, .btn:active {
-  outline: none !important;
-  box-shadow: none;
-}
-
-.header-bars__info {
-  position: absolute;
-  right: 0;
-  background-color: #010101;
-  box-shadow: 0 2px 10px #010101;
-}
-
-.sticky {
-  position: fixed;
-  height: 75px;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.hidden {
-  display: none;
+  border-bottom: 2px solid rgb(156, 142, 114);
 }
 
 /* SHOWCASE */
@@ -108,11 +114,6 @@ body {
   color: #fff;
 }
 
-.showcase-town {
-  font-family: var(--font-text);
-  letter-spacing: 5px;
-}
-
 .showcase-title {
   color: #fff;
   font-family: var(--font-text);
@@ -121,10 +122,11 @@ body {
 }
 
 .showcase-motto {
-  padding-top: 350px;
+  padding-top: 500px;
   color: wheat;
-  font-size: 3rem;
-  font-family: 'Caveat', cursive;
+  font-size: 2.8rem;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   letter-spacing: 5px;
 }
 
@@ -188,7 +190,6 @@ body {
   box-shadow: 0 2px 5px #010101;
 }
 
-
 .service-link:hover {
   color: #472d2d;
   text-decoration: none;
@@ -232,44 +233,28 @@ body {
 }
 
 /* PRICES */
-.prices-container {
-  padding: 80px 0 80px 300px;
+
+.prices {
+  height: 400px;
 }
 
-.prices-title {
+.about-container {
+  padding-top: 100px;
+}
+
+.about-container__text {
+  margin: 0;
   font-family: var(--font-text);
+  line-height: 30px;
   color: #010101;
 }
 
-.prices-list {
-  width: 70%;
-  flex-direction: column;
-  font-family: var(--font-text);
-  list-style-type: none;
-}
-
-.prices-item {
-  width: 90%;
-  line-height: 1rem;
-}
-
-.price-line {
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.prices-list__title {
-  font-family: var(--font-text);
-  font-size: 16px;
-}
-
-.prices-item__decs {
-  font-family: var(--font-text);
-  font-size: 13px;
-}
-
-.price {
-  margin-top: 25px;
+.about-container__text::first-letter {
+  font-size: 2em;
+  margin-right: 2px;
+  font-weight: bold;
+  color: #7a4c4c;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
 }
 
 /* CONTACTS */
@@ -340,7 +325,18 @@ body {
 .footer-anchor__container {
   width: 75%;
   flex-direction: column;
+  font-family: var(--font-text);
+  font-size: 11px;
   padding-top: 83px;
+}
+
+.main-title__sub-container {
+  letter-spacing: 2px;
+}
+
+.main-title__sub {
+  padding: 10px;
+  border: 1px solid wheat;
 }
 
 .footer-anchor__desc {
@@ -365,6 +361,7 @@ body {
 .footer-contacts__desc {
   margin: 0;
   width: 40%;
+  line-height: 5px;
 }
 
 .footer-adujust__desc {
@@ -408,9 +405,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .showcase-town {
-    font-size: 13px;
-  }
   .showcase-title {
     font-size: 50px;
   }
@@ -460,9 +454,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .anchor {
-    display: none;
   }
   .pages-list {
     margin-right: 20px;

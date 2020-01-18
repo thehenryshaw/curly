@@ -1,8 +1,6 @@
 'use strict';
 
 const header = document.querySelector('.header');
-const btn = document.querySelector('.bars-button');
-const bars = document.querySelector('.header-bars__info');
 const list = document.querySelector('.pages-list');
 const links = Array.from(document.querySelectorAll('.pages-item__link'));
 const signUpBtns = Array.from(document.querySelectorAll('.service-link'));
@@ -29,13 +27,10 @@ list.addEventListener('click', event => {
   let top;
 
   switch (event.target.dataset.id) {
-    case 'Главная':
-      top = showcaseSection.offsetTop;
-      break;
     case 'Услуги':
       top = serviceSection.offsetTop - 30;
       break;
-    case 'Цены':
+    case 'Обо мне':
       top = pricesSection.offsetTop;
       break;
     case 'Контакты':
