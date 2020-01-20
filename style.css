@@ -17,7 +17,7 @@ header {
 .girl-image {
   width: 250px;
   height: 240px;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-right: 35px;
   background-image: url('./img/1.png');
   background-position: center;
@@ -26,7 +26,7 @@ header {
 }
 
 .main-container {
-  padding-top: 140px;
+  margin-top: 120px;
   font-family: var(--font-text);
   color: #010101;
 }
@@ -43,7 +43,7 @@ header {
 }
 
 .main-container h3 {
-  margin: 90px 0 0;
+  margin: 70px 0 0;
   letter-spacing: 2px;
   font-size: 3rem;
   font-family: 'Poiret One', cursive;
@@ -103,6 +103,7 @@ header {
 
 /* SHOWCASE */
 .showcase-image {
+  height: 110vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,20 +112,14 @@ header {
 .caption {
   position: absolute;
   top: 100px;
+  margin: 220px 0 0;
   color: #fff;
-}
-
-.showcase-title {
-  color: #fff;
-  font-family: var(--font-text);
-  font-weight: 700;
-  letter-spacing: 25px;
+  background-color: rgba(23, 24, 23, 0.3);
 }
 
 .showcase-motto {
-  padding-top: 500px;
   color: wheat;
-  font-size: 2.8rem;
+  font-size: 4rem;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   letter-spacing: 5px;
@@ -151,6 +146,7 @@ header {
 /* SERVICE */
 .service {
   width: 100%;
+  padding-top: 80px;
 }
 
 .service-card__container {
@@ -233,14 +229,14 @@ header {
   background-repeat: no-repeat;
 }
 
-/* PRICES */
+/* ABOUT */
 
-.prices {
+.about {
   height: 400px;
 }
 
 .about-container {
-  padding-top: 100px;
+  padding: 100px 100px 0 100px;
 }
 
 .about-container__text {
