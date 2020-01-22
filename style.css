@@ -128,7 +128,7 @@ header {
 /* QUOTE */
 .quote {
   flex-direction: column;
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
 }
 
 .quote-title {
@@ -253,6 +253,13 @@ header {
   color: #7a4c4c;
   text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
 }
+
+/* PRICES */
+/* .serv {
+  margin: 0; 
+  font-size: 45px;
+} */
+
 
 /* CONTACTS */
 .contacts-container {
@@ -402,8 +409,23 @@ header {
 }
 
 @media (max-width: 1024px) {
-  .showcase-title {
-    font-size: 50px;
+  .girl-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+  }
+  .main-container h1 {
+    font-size: 3.5rem;
+  }
+  .main-container h3 {
+    margin: 50px 0 0;
+    font-size: 2.8rem;
+  }
+  .showcase-image {
+    height: 100vh;
+  }
+  .caption {
+    margin: 190px 0 0;
   }
   .showcase-motto {
     font-size: 2rem;
@@ -421,14 +443,50 @@ header {
 
 
 @media (max-width: 760px) {
+  .girl-image {
+    width: 150px;
+    height: 150px;
+  }
+  .min-main__container {
+    margin-left: 50px;
+  }
+  .main-container {
+    margin-top: 112px;
+  }
+  .main-container h1 {
+    font-size: 2.5rem;
+    line-height: 4.2rem;
+  }
+  .main-container h3 {
+    font-size: 2.5rem;
+  }
+  .header-service__text {
+    font-size: 20px;
+  }
+  .showcase-image {
+    height: 80vh;
+  }
+  .caption {
+    margin: 140px 0 0;
+  }
   .showcase-motto {
-    font-size: 2rem;
+    margin: 10px;
+    font-size: 1.7rem;
   }
   .service-title {
     font-size: 1rem;
   }
-  .lines:hover, .adjust-service__lines:hover {
+  .lines {
+    margin-top: 50px;
+  }
+  .lines:hover:hover {
     border: none;
+  }
+  .about {
+    height: 500px;
+  }
+  .quote {
+    padding: 30px 0;
   }
   .footer-contacts__container {
     padding-right: 30px;
@@ -442,15 +500,32 @@ header {
     width: 85%;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 150px !important;
+    margin-bottom: 0px !important;
   }
 }
 
-@media (max-width: 600px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 660px) {
+  .pages-item__link {
+    font-size: 14px;
+  }
+  .girl-image {
+    display: none;
+  }
+  .main-container {
+    margin-right: 20px !important;
+  }
+  .main-container h1 {
+    font-size: 2rem;
+    letter-spacing: 9px;
+  }
+  .main-container h3 {
+    font-size: 2rem;
+  }
+  .header-service {
+    width: 50% !important;
+  }
+  .header-service__text {
+    font-size: 18px;
   }
   .pages-list {
     margin-right: 20px;
@@ -458,18 +533,23 @@ header {
   .pages-item__link {
     margin-left: 20px;
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 300px !important;
+  .showcase-image {
+    height: 60vh;
   }
-  .showcase-title {
-    margin-left: 15px;
-    font-size: 1.6rem;
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 0px !important;
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .caption {
+    margin-top: 70px;
   }
   .showcase-motto {
-    padding-top: 40px;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
   }
   .service {
+    padding: 0;
     flex-direction: column;
   }
   .hairstyles {
@@ -486,11 +566,11 @@ header {
   .adjust-service__link {
     width: 60%;
   }
-  .prices-container {
-    padding-left: 10px;
+  .about {
+    height: 800px;
   }
-  .prices-list {
-    padding-left: 10px;
+  .about-container {
+    padding: 100px 50px 0 50px;
   }
   .contacts-title__container {
     width: 100%;
