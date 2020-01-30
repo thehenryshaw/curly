@@ -1,5 +1,4 @@
 /* GLOBAL */
-
 :root {
   --font-text: 'Montserrat', sans-serif;
 }
@@ -226,7 +225,6 @@ header {
 }
 
 /* ABOUT */
-
 .about {
   height: 400px;
 }
@@ -582,7 +580,7 @@ header {
     letter-spacing: 1px;
   }
   .prices h3 {
-    font-size: 1.2rem;
+    font-size: 15px;
   }
   .month {
     margin-right: 70px !important;
