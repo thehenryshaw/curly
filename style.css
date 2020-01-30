@@ -97,10 +97,6 @@ header {
   border-bottom: 2px solid rgb(156, 142, 114);
 }
 
-.active {
-  border-bottom: 2px solid rgb(156, 142, 114);
-}
-
 /* SHOWCASE */
 .showcase-image {
   height: 110vh;
@@ -255,11 +251,31 @@ header {
 }
 
 /* PRICES */
-/* .serv {
+.serv {
   margin: 0; 
-  font-size: 45px;
-} */
+  font-size: 40px;
+  font-family: var(--font-text);
+}
 
+.prices h3 {
+  margin: 0;
+  font-size: 30px;
+  font-family: var(--font-text);
+  line-height: 50px;
+}
+
+.prices i {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.month {
+  margin-right: 125px !important;
+}
+
+.month i {
+  margin-left: 20px;
+}
 
 /* CONTACTS */
 .contacts-container {
@@ -400,22 +416,30 @@ header {
   line-height: 1rem;
 }
 
-
+@media (max-width: 1240px) {
+  .showcase-motto {
+    font-size: 3rem;
+  }
+}
 
 @media (max-width: 1170px) {
   .service-title {
     font-size: 1.5rem;
   }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 20px !important;
+  }
 }
 
 @media (max-width: 1024px) {
   .girl-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 15px;
   }
   .main-container h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    letter-spacing: 7px;
   }
   .main-container h3 {
     margin: 50px 0 0;
@@ -433,11 +457,14 @@ header {
   .service-title {
     font-size: 1.2rem;
   }
-  .prices-container {
-    padding-left: 60px;
-  }
   .carousel-control-prev-icon, .carousel-control-next-icon {
     margin-bottom: 50px !important;
+  }
+  .prices-container h2 {
+    display: none;
+  }
+  .prices {
+    margin: 0 auto;
   }
 }
 
@@ -488,6 +515,12 @@ header {
   .quote {
     padding: 30px 0;
   }
+  .prices h3 {
+    font-size: 1.5rem;
+  }
+  .prices i {
+    font-size: 20px;
+  }
   .footer-contacts__container {
     padding-right: 30px;
     margin-left: 70px;
@@ -500,7 +533,7 @@ header {
     width: 85%;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -512,11 +545,11 @@ header {
     display: none;
   }
   .main-container {
-    margin-right: 20px !important;
+    margin-right: 40px !important;
   }
   .main-container h1 {
-    font-size: 2rem;
-    letter-spacing: 9px;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
   }
   .main-container h3 {
     font-size: 2rem;
@@ -548,6 +581,16 @@ header {
     font-size: 1rem;
     letter-spacing: 1px;
   }
+  .prices h3 {
+    font-size: 1.2rem;
+  }
+  .month {
+    margin-right: 70px !important;
+  }
+  .prices i {
+    font-size: 15px;
+  }
+
   .service {
     padding: 0;
     flex-direction: column;

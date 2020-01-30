@@ -6,9 +6,8 @@ const links = Array.from(document.querySelectorAll('.pages-item__link'));
 const signUpBtns = Array.from(document.querySelectorAll('.service-link'));
 const signUp = document.querySelector('.header-service');
 
-const showcaseSection = document.querySelector('.showcase');
 const serviceSection = document.querySelector('.service');
-const pricesSection = document.querySelector('.prices');
+const aboutSection = document.querySelector('.about');
 const contactsSection = document.querySelector('.contacts');
 
 links.forEach(el => {
@@ -28,11 +27,11 @@ list.addEventListener('click', event => {
   let top;
 
   switch (event.target.dataset.id) {
-    case 'Услуги':
+    case 'Курсы':
       top = serviceSection.offsetTop - 30;
       break;
-    case 'Обо мне':
-      top = pricesSection.offsetTop;
+    case 'О нас':
+      top = aboutSection.offsetTop;
       break;
     case 'Контакты':
       top = contactsSection.offsetTop + 35;
