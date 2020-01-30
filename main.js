@@ -70,10 +70,3 @@ signUpBtns.forEach(el => {
       behavior: 'smooth'
     })
   })
-
-
-window.addEventListener('resize', () => {
-  if(window.innerWidth < 760) {
-    header.classList.remove('sticky');
-  }
-})
