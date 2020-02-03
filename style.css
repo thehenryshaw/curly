@@ -565,7 +565,7 @@ header {
     height: 45vh;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 0 !important;
+    margin-bottom: -5px !important;
     width: 15px !important;
     height: 15px !important;
   }
