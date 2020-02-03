@@ -120,6 +120,10 @@ header {
   letter-spacing: 5px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 90px !important;
+}
+
 /* QUOTE */
 .quote {
   flex-direction: column;
@@ -265,10 +269,6 @@ header {
 .prices i {
   margin-left: 10px;
   font-size: 25px;
-}
-
-.month {
-  margin-right: 125px !important;
 }
 
 .month i {
@@ -424,9 +424,6 @@ header {
   .service-title {
     font-size: 1.5rem;
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 20px !important;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -456,7 +453,7 @@ header {
     font-size: 1.2rem;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 50px !important;
+    margin-bottom: 110px !important;
   }
   .prices-container h2 {
     display: none;
@@ -531,7 +528,7 @@ header {
     width: 85%;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 0 !important;
+    margin-bottom: 60px !important;
   }
 }
 
@@ -565,15 +562,15 @@ header {
     margin-left: 20px;
   }
   .showcase-image {
-    height: 60vh;
+    height: 45vh;
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
     width: 15px !important;
     height: 15px !important;
   }
   .caption {
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .showcase-motto {
     font-size: 1rem;
@@ -583,19 +580,18 @@ header {
     font-size: 15px;
   }
   .month {
-    margin-right: 70px !important;
+    margin-right: 35px !important;
   }
   .prices i {
+    margin-left: 5px;
     font-size: 15px;
   }
-
   .service {
     padding: 0;
     flex-direction: column;
   }
   .hairstyles {
     background-position: center;
-
   }
   .service-card__container {
     width: 100%;
